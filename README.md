@@ -20,7 +20,7 @@ pwd
 
 ```bash
 ls
-```git remote set-url origin git@github.com:Falcon-Inspiron/Linux-Fundamentals.git
+```
 > Output: Desktop  Documents  Downloads Pictures Musics ....
 
 > `ls -a` List all the hidden files that start with '.' (e.g; .icons, .themes) 
