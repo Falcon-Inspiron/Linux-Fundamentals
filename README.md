@@ -20,7 +20,7 @@ pwd
 
 ```bash
 ls
-```
+```git remote set-url origin git@github.com:Falcon-Inspiron/Linux-Fundamentals.git
 > Output: Desktop  Documents  Downloads Pictures Musics ....
 
 > `ls -a` List all the hidden files that start with '.' (e.g; .icons, .themes) 
@@ -38,6 +38,7 @@ cd Downloads
 > ` cd .. ` Bring back to previous directory
 
 ### b. FILE
+---
 1. Command: 'touch' - Helps to create a new file in a directory or folder and its file-type, & can also edit or copy timestamp
 
 ```bash
