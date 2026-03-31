@@ -24,7 +24,9 @@ ls
 > Output: Desktop  Documents  Downloads Pictures Musics ....
 
 > `ls -a` List all the hidden files that start with '.' (e.g; .icons, .themes) 
+
 > `ls -l` List the files in long format (e.g; drwxr-xr-x  2 harry harry 4096 F-Ɛ 22 16:46).
+
 > `ls -la` With the combination of (-la) or (-al) doesn't matter it list both hidden and unhidden files in long format.
 
 3. Command: 'cd' - **Change directory** (change from one directory to another).
@@ -35,6 +37,7 @@ cd Downloads
 > Output: ~/Downloads   (This shows you that you are in the Downloads directory)
 
 > ` cd ~ ` or ` cd ` Go to home directory
+
 > ` cd .. ` Bring back to previous directory
 
 ### b. FILE
@@ -50,9 +53,9 @@ touch ~/Downloads/file.dotx
 stat ~/Downloads/first.dotx
 ```
 >Output: 
-   >Access: 2025-10-02 14:41:34.782807037 +0000
-   >Modify: 2025-10-02 14:41:34.782807037 +0000   
-   >Change: 2025-10-02 14:41:34.782807037 +0000
+   -Access: 2025-10-02 14:41:34.782807037 +0000
+   -Modify: 2025-10-02 14:41:34.782807037 +0000   
+   -Change: 2025-10-02 14:41:34.782807037 +0000
 
 Gives new timestamp in this order YYYYMMDDhhmm.ss (Y: year,M: month,D: day,h: hour,m: minutes,s: seconds)
 ```bash
