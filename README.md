@@ -110,10 +110,10 @@ history
  
 > `!!` To print recent or previous command.
 
->Use "CTRL+R" to search for your previous similar command base on input letters
-> Output:
-        bash
-           bck-i-search: _
+>Use "CTRL+R" to search for your previous similar command base on input letters<br>
+> Output:<br>
+        bash  
+           bck-i-search: _  
 
 > `clear` To clean all above and recent commands on the terminal.
 
