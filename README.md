@@ -104,7 +104,7 @@ history
    664  stat ~/Downloads/first.dotx<br>
    669  stat ~/Downloads/second.dotx<br>
    670  touch ~/Downloads/first.dotx<br>
-   676  touch -t ~/Downloads/first.dotx<br>
+   676  touch -t ~/Downloads/first.dotx
    ..................
    .................. etc
  
