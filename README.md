@@ -2,7 +2,10 @@
 ---
 
 ## How i learnt my linux (kubuntu 24.04LTS)
-This repository tracks my learning of Linux basics: CLI, permissions, processes, users, tar, cron. I learnt the basics of linux from **Linuxjourney.com**,then i began from the history of linux and that gave me an understanding of the unique rules and function of the different types of unix linux system, the different distro we have and the unique features .
+This repository tracks my learning of Linux basics: CLI, permissions, processes, users, tar, cron. I learnt<br>
+the basics of linux from **Linuxjourney.com**,then i began from the history of linux and that gave me an<br>
+understanding of the unique rules and function of the different types of unix linux system, the different<br>
+distro we have and the unique features .
   
 ## Day 1: Command-Line
 ### a. NAVIGATION
@@ -23,11 +26,11 @@ ls
 ```
 > Output: Desktop  Documents  Downloads Pictures Musics ....
 
-> `ls -a` List all the hidden files that start with '.' (e.g; .icons, .themes) 
+   > `ls -a` List all the hidden files that start with '.' (e.g; .icons, .themes) 
 
-> `ls -l` List the files in long format (e.g; drwxr-xr-x  2 harry harry 4096 F-Ɛ 22 16:46).
+   > `ls -l` List the files in long format (e.g; drwxr-xr-x  2 harry harry 4096 F-Ɛ 22 16:46).
 
-> `ls -la` With the combination of (-la) or (-al) doesn't matter it list both hidden and unhidden files in long format.
+   > `ls -la` With the combination of (-la) or (-al) doesn't matter it list both hidden and unhidden files in long format.
 
 3. Command: 'cd' - **Change directory** (change from one directory to another).
 
@@ -36,9 +39,9 @@ cd Downloads
 ```
 > Output: ~/Downloads   (This shows you that you are in the Downloads directory)
 
-> ` cd ~ ` or ` cd ` Go to home directory
+   > ` cd ~ ` or ` cd ` Go to home directory
 
-> ` cd .. ` Bring back to previous directory
+   > ` cd .. ` Bring back to previous directory
 
 ### b. FILE
 ---
@@ -52,12 +55,12 @@ touch ~/Downloads/file.dotx
 ```bash
 stat ~/Downloads/first.dotx
 ```
->Output: 
-   -Access: 2025-10-02 14:41:34.782807037 +0000
-   -Modify: 2025-10-02 14:41:34.782807037 +0000   
-   -Change: 2025-10-02 14:41:34.782807037 +0000
+>Output:<br>
+   Access: 2025-10-02 14:41:34.782807037 +0000<br>
+   Modify: 2025-10-02 14:41:34.782807037 +0000<br>
+   Change: 2025-10-02 14:41:34.782807037 +0000<br>
 
-Gives new timestamp in this order YYYYMMDDhhmm.ss (Y: year,M: month,D: day,h: hour,m: minutes,s: seconds)
+Get a new timestamp in this order YYYYMMDDhhmm.ss (Y: year,M: month,D: day,h: hour,m: minutes,s: seconds)
 ```bash
 touch -t 202705231453.45 ~/Downloads/first.dotx
 ```
@@ -96,12 +99,12 @@ less ~/Downloads/first.dotx
  ```bash
 history
 ```
-> Output:
-   662  touch -r ~/Downloads/first.dotx
-   664  stat ~/Downloads/first.dotx
-   669  stat ~/Downloads/second.dotx   # and 10 more history
-   670  touch ~/Downloads/first.dotx
-   676  touch -t ~/Downloads/first.dotx
+> Output:<br>
+   662  touch -r ~/Downloads/first.dotx<br>
+   664  stat ~/Downloads/first.dotx<br>
+   669  stat ~/Downloads/second.dotx<br>
+   670  touch ~/Downloads/first.dotx<br>
+   676  touch -t ~/Downloads/first.dotx<br>
    ..................
    .................. etc
  
